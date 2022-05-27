@@ -50,8 +50,8 @@ IPAddress subnet(255, 255, 255, 0);
 IPAddress primaryDNS(8, 8, 8, 8);
 IPAddress secondaryDNS(8, 8, 4, 4);
 */
-#define INFLUXDB_URL "http://141.95.1.50:8086"
-#define INFLUXDB_DB_NAME "mydb"
+#define INFLUXDB_URL "http://xx.xx.xx.xx:8086"
+#define INFLUXDB_DB_NAME "xxxxx"
 Point Sensor("Air_Quality");
 InfluxDBClient client(INFLUXDB_URL, INFLUXDB_DB_NAME);
 #define Sensor_Name "SCD-41"
